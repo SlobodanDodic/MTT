@@ -1,0 +1,71 @@
+body {
+  padding: 8px;
+  background-color: rgb(231, 236, 240);
+  font-size: 0.9em;
+}
+
+.MuiToolbar-regular {
+  min-height: 41px !important;
+}
+
+.MuiToolbar-gutters {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#appbar {
+  padding: 3px;
+  background-color: rgb(95, 23, 163);
+}
+
+.MuiTableCell-stickyHeader {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(95, 23, 163) !important;
+}
+
+.MuiTableRow-root:nth-of-type(2n) {
+  background: rgba(255, 255, 255, 0.21);
+}
+
+.MuiTableContainer-root {
+  overflow-x: inherit !important;
+}
+
+.PrivateNotchedOutline-legendLabelled-3 > span {
+  padding-left: 11px !important;
+  padding-right: 11px !important;
+}
+
+.accord {
+  background-color: rgb(226, 232, 236) !important;
+}
+
+.MuiAccordionSummary-root {
+  min-height: 40px !important;
+  height: 40px !important;
+}
+
+#up-icon {
+  margin: 0 auto;
+}
+
+#up-icon:hover {
+  color: rgba(95, 23, 163);
+}
+
+#up-icon:hover {
+  cursor: pointer;
+}
+
+#mamaGram {
+  color: white;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  filter: drop-shadow(2px 4px 6px black);
+}
