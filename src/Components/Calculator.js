@@ -38,7 +38,7 @@ const Calculator = () => {
         padding: "10px 0px",
       }}
     >
-      <h2>Unos podataka</h2>
+      <h3>Unos podataka</h3>
 
       <div>
         <form onSubmit={handleSubmit}>

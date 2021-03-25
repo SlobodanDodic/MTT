@@ -161,7 +161,7 @@ const Results = () => {
           paddingBottom: "40px",
         }}
       >
-        <h2>Rezultat na osnovu unetih podataka</h2>
+        <h3>Rezultat na osnovu unetih podataka</h3>
 
         <br />
 
@@ -312,13 +312,13 @@ const Results = () => {
           padding: "0px 10px 10px",
         }}
       >
-        <h2
+        <h3
           style={{
             textAlign: "center",
           }}
         >
           Tabela sa podacima
-        </h2>
+        </h3>
         <p>
           Uvećanje telesne težine tokom trudnoće se ne pripisuje samo težini
           fetusa. Veći deo tog uvećanja težine ide na razvoj tkiva koja

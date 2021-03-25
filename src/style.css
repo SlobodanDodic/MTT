@@ -69,3 +69,10 @@ body {
   );
   filter: drop-shadow(2px 4px 6px black);
 }
+
+.MuiTypography-subtitle2 {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0 !important;
+}

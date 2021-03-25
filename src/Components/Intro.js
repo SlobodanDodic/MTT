@@ -10,16 +10,17 @@ const Intro = () => {
     <div
       style={{
         textAlign: "justify",
-        paddingTop: "55px",
+        paddingTop: "35px",
       }}
     >
-      <h2
+      <h3
         style={{
           textAlign: "center",
         }}
       >
-        Kalkulator : Dobitak težine u trudnoći po nedeljama
-      </h2>
+        Kalkulator: <br />
+        Dobitak težine u trudnoći po nedeljama
+      </h3>
 
       <Accordion className="accord">
         <AccordionSummary
@@ -27,11 +28,13 @@ const Intro = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Koliko kilograma dobijamo u trudnoći?</Typography>
+          <Typography variant="subtitle2" align="left">
+            Koliko kilograma dobijamo u trudnoći?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography
-            variant="body2"
+            variant="caption"
             align="justify"
             style={{ textIndent: "15px" }}
           >

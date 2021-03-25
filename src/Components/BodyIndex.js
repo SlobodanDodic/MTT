@@ -41,7 +41,7 @@ const BodyIndex = () => {
         padding: "20px 0px 40px",
       }}
     >
-      <h2>Indeks Telesne Mase</h2>
+      <h3>Indeks Telesne Mase</h3>
 
       <br />
       <div className={classes.root}>

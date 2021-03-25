@@ -24,12 +24,12 @@ const FooterInfo = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>
-            Šta ako dobijam premalo/previše kilograma u trudnoći?
+          <Typography variant="subtitle2">
+            Šta ako dobijam premalo/previše kg u trudnoći?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography variant="body2" align="justify">
+          <Typography variant="caption" align="justify">
             Vaš ginekolog/lekar koji vam prati trudnoću, će da prati i vašu
             telesnu težinu na pregledima. Gubitak težine u trudnoći ili
             nedovoljno dobijanje (najčešće usled mučnine, povraćanje, gubitka
@@ -51,10 +51,12 @@ const FooterInfo = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Šta treba da jedem kad sam trudna?</Typography>
+          <Typography variant="subtitle2">
+            Šta treba da jedem kad sam trudna?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography variant="body2" align="justify">
+          <Typography variant="caption" align="justify">
             Recept za savršenu trudničku ishranu ne postoji. Moraćete da
             balansirate između trudničkih prohteva, mučnina, napada gladi i
             padova apetita. Ne preskačite obroke (doručak, ručak, večera,
@@ -76,10 +78,12 @@ const FooterInfo = () => {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Da li treba da pijem vitamine za trudnice?</Typography>
+          <Typography variant="subtitle2">
+            Da li treba da pijem vitamine za trudnice?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography variant="body2" align="justify">
+          <Typography variant="caption" align="justify">
             Kod izbalansirane i uravnotežene ishrane trebalo bi da trudnica
             dobija sve što je potrebno za nju i bebu. Međutim, u trudnoći
             ubrzano trošimo hranljive materije, a često nismo ni sigurni u
@@ -143,10 +147,12 @@ const FooterInfo = () => {
           aria-controls="panel4a-content"
           id="panel4a-header"
         >
-          <Typography>Koju hranu treba da izbegavam u trudnoći?</Typography>
+          <Typography variant="subtitle2">
+            Koju hranu treba da izbegavam u trudnoći?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography variant="body2" align="justify">
+          <Typography variant="caption" align="justify">
             Trudnice treba da izbegavaju da jedu hranu koja je sirova,
             nedovoljno kuvana ili naravno kontaminirana.
             <br />
