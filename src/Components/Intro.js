@@ -18,7 +18,7 @@ const Intro = () => {
           textAlign: "center",
         }}
       >
-        Preporučeno uvećavanje telesne težine tokom trudnoće
+        Kalkulator : Dobitak težine u trudnoći po nedeljama
       </h2>
 
       <Accordion className="accord">
@@ -27,31 +27,28 @@ const Intro = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Dodatne informacije</Typography>
+          <Typography>Koliko kilograma dobijamo u trudnoći?</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography variant="body2" align="justify">
-            Trudnoća može dovesti do značajnih promena u ženskom telu i
-            svakodnevnim rutinama. Jedan od njih je povećanje telesne težine
-            kako bi se osiguralo dovoljno hranjivih sastojaka za razvoj fetusa i
-            kako bi se uskladištilo dovoljno hranljivih sastojaka u pripremi za
-            dojenje.
-            <br />
-            Iako je povećanje telesne težine tokom trudnoće normalno i
-            neophodno, studije su pokazale da određeni rasponi povećavanja
-            težine, s obzirom na specifični indeks telesne mase (BMI), rezultuju
-            pozitivnijim ishodima i za fetus i za majku. Generalno se
-            preporučuje da trudnice dobiju samo 0,45 kg do 1,85 kg tokom prva 3
-            meseca trudnoće, a 0,45 kg nedeljno tokom ostatka trudnoće. Moguće
-            je postići 0,45 kg nedeljno unoseći dodatnih 300 kalorija dnevno,
-            što je otprilike ekvivalentno dodatnom sendviču sa čašom mleka ili
-            pečenim krompirom sa oko 55 grama mesa plus jednom jabukom.
-            <br />
-            Medicinski institut daje smernice za povećavanje telesne težine na
-            osnovu BMI u trudnoći, ali imajte na umu da su ovo samo preporuke i
-            da uvećavanje telesne težine žena varira. Kao takvo, treba
-            konsultovati zdravstvenog radnika da bi se tačnije utvrdile
-            specifične potrebe svake osobe.
+          <Typography
+            variant="body2"
+            align="justify"
+            style={{ textIndent: "15px" }}
+          >
+            Povećanje telesne težine tokom trudnoće je normalno i neophodno,
+            kako bi se osiguralo dovoljno hranjivih sastojaka za razvoj bebe i
+            pripremu tela za dojenje. Međutim, to nikako ne znači da treba da
+            jedemo za troje. Tokom prva 3 meseca trudnoće, preporučeni dobitak
+            na težini mame bi trebalo da bude između 500 grama do 2 kg. U drugom
+            i trećem trimestru, radi brze orijentacije, preporučeni dobitak na
+            težini bi iznosio između 1.500 grama do 2.500 grama mesečno.
+            Prekomerno ili nedovoljno dobijanje na težini može da utiče na
+            zdravlje trudnice i bebe. Pored količine namirnica, neophodno je da
+            vodite računa i o kvalitetu istih, kao i da su pripremljene na
+            higijenski ispravan način. Ovaj kalkulator služi samo u
+            orijentacione svrhe praćenja dobitka težine i nije zamena za
+            lekarski pregled i procenu težine. Za sve nedoumice, posavetujte se
+            sa lekarom koji vam prati trudnoću.
           </Typography>
         </AccordionDetails>
       </Accordion>

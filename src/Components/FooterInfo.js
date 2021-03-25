@@ -24,16 +24,23 @@ const FooterInfo = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Potencijalne komplikacije...</Typography>
+          <Typography>
+            Šta ako dobijam premalo/previše kilograma u trudnoći?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2" align="justify">
-            Postoje negativni efekti u slučaju nedovoljnog ili prekomernog
-            debljanja tokom trudnoće. Nedovoljno debljanje može ugroziti
-            zdravlje fetusa i prouzrokovati prerano rođenje, dok prekomerno
-            uvećanje težine može izazvati porođajne komplikacije, rađajući
-            fetuse znatno veće od proseka, zadržavanje telesne težine nakon
-            porođaja, a može doći i do povećanja rizika za carskim rezom.
+            Vaš ginekolog/lekar koji vam prati trudnoću, će da prati i vašu
+            telesnu težinu na pregledima. Gubitak težine u trudnoći ili
+            nedovoljno dobijanje (najčešće usled mučnine, povraćanje, gubitka
+            apetita, žgaravice...), podrazumeva obavezno obraćanje izabranom
+            doktoru kako bi ispratio vaše stanje, napredak bebe i procenio da li
+            treba da se uključuje terapija ili prilagodi ishrana. Prekomerno
+            dobijanje na težini može da dovede do brojnih komplikacija za mamu i
+            bebu: trudnički dijabetes, povećanje krvnog pritiska, problemi sa
+            žučnom kesom, otežana pokretljivost, porast broja porođaja završenih
+            carskim rezom. Nikad samoinicijativno odnosno bez lekarskog saveta
+            nemojte da koristite dijetu u trudnoći.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -44,20 +51,21 @@ const FooterInfo = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Ishrana tokom trudnoće...</Typography>
+          <Typography>Šta treba da jedem kad sam trudna?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2" align="justify">
-            Ono što osoba jede ili ne jede tokom trudnoće može značajno uticati
-            na zdravlje svoje bebe. Iako se često raspravlja o tome šta osoba
-            treba ili ne sme jesti tokom trudnoće, a što se može razlikovati
-            među kulturama, ne postoji posebna formula koja garantuje zdravu
-            bebu. Nije apsolutno neophodno slijediti neke strogo stroge
-            nutricionističke smernice tokom trudnoće, ali se primenjuju opšti
-            saveti za zdravu prehranu, poput ravnoteže povrća, voća, celovitih
-            žitarica, nemasnih proteina i zdravih masti. Određene hranjive
-            sastojke mogu, međutim, biti posebno korisne za rast i razvoj zdrave
-            bebe. O nekima će biti reči u nastavku.
+            Recept za savršenu trudničku ishranu ne postoji. Moraćete da
+            balansirate između trudničkih prohteva, mučnina, napada gladi i
+            padova apetita. Ne preskačite obroke (doručak, ručak, večera,
+            užine). Koristite integralno brašno umesto belog, što više žitarica
+            sa celim zrnom, voćne užine, salate sa svežim povrćem. Neka vaša
+            ishrana bude izbalansirana, sa puno voća i povrća. Zdrave masnoće su
+            važne za razvoj bebe, ne preskačite ih (hladno ceđena ulja, mlečni
+            proizvodi…). Proteini su osnovne gradivne materije u našem telu, ne
+            zaboravite ih. Smanjite/izbacite so, šećer i industrijski prerađene
+            namirnice. Uvek i svuda se pobrinite da je hrana higijenski ispravna
+            i namirnica dozvoljena u trudnoći.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -68,10 +76,18 @@ const FooterInfo = () => {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Dodaci ishrani...</Typography>
+          <Typography>Da li treba da pijem vitamine za trudnice?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2" align="justify">
+            Kod izbalansirane i uravnotežene ishrane trebalo bi da trudnica
+            dobija sve što je potrebno za nju i bebu. Međutim, u trudnoći
+            ubrzano trošimo hranljive materije, a često nismo ni sigurni u
+            nutritivnu vrednost hrane, pa se dodaju prenatalni vitamini, kojima
+            ćemo da obebedimo dovoljan unos vitamina i minerala koji se povećano
+            troše u to periodu. Uvek se konsultujte sa lekarom koji vam prati
+            trudnoću pre uzimanja bilo kakvih preparata.
+            <br />
             <strong>Folat i folna kiselina: </strong>
             <br />
             Folat i folna kiselina mogu pomoći u sprečavanju urođenih mana.
@@ -113,18 +129,10 @@ const FooterInfo = () => {
             anemije, što bi rezultovalo umorom i povećavanjem rizika od preranog
             porođaja. Gvožđe se, između ostalog, može naći u nemasnom crvenom
             mesu, živini, ribi, hrani obogaćenoj gvožđem, pasulju i povrću.
-            Gvožđe iz životinjskih proizvoda najlakše se apsorbuje, iako
-            spajanje gvožđa iz biljnih izvora sa hranom ili pićima koja sadrže
-            velike količine vitamina C može povećati apsorpciju gvožđa.
-            <br />
-            <br />
-            <strong>
-              Većina gore navedenih hranjivih sastojaka može se dobiti nekim
-              oblikom dodataka, a uzimanje prenatalnih vitamina prilično je
-              često. U zavisnosti od vaše prehrane, možete razmotriti razgovor
-              sa zdravstvenim radnikom kako biste utvrdili trebate li uzimati
-              prenatalni vitamin ili bilo koje druge posebne dodatke.
-            </strong>
+            Gvožđe iz životinjskih proizvoda najlakše se apsorbuje. Gvožđe se
+            uglavnom uzima sa vitamoinom C, kako bi se povećala apsorpcija, a
+            mleko i mlečne proizvode treba izbegavati 2 sata po uzimanju
+            preparata gvožđa.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -135,39 +143,53 @@ const FooterInfo = () => {
           aria-controls="panel4a-content"
           id="panel4a-header"
         >
-          <Typography>Hrana za izbegavanje...</Typography>
+          <Typography>Koju hranu treba da izbegavam u trudnoći?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography variant="body2" align="justify">
-            Važno je izbegavati određenu hranu i aktivnosti tokom trudnoće kao i
-            konzumirati hranu sa određenim hranjivim sastojcima. Neke od njih
-            uključuju hranu bogatu živom, poput mnogih plodova mora. Generalno,
-            što je riba veća i što je starija, verovatno sadrži više žive.
-            Preporučuje se da trudnice izbegavaju da jedu morske pse, sabljarke
-            i skuše. Morski plodovi koji se uopšteno smatraju sigurnim uključuju
-            škampe, losos, soma, inćune, pastrmku, bakalar i tunu iz konzerve.
-            Trudnice takođe trebaju izbegavati da jedu hranu koja je sirova,
+            Trudnice treba da izbegavaju da jedu hranu koja je sirova,
             nedovoljno kuvana ili naravno kontaminirana.
             <br />
-            Treba uključiti hranu poput sušija i sirovih školjki poput kamenica.
-            Slično tome, treba izbegavati nedovoljno pečeno meso, živinu i jaja,
-            jer su trudnice u većem riziku od trovanja hranom zbog bakterija u
-            nedovoljno kuvanoj hrani. Nepasterizovanu hranu, koja uključuje
-            mnoge mlečne proizvode, takođe treba izbegavati jer može dovesti do
-            bolesti koje se prenose hranom. Trudnice ne bi trebale jesti
-            neoprano voće i povrće, opet zbog mogućnosti konzumiranja štetnih
-            bakterija. Određeni izdanci poput lucerke, deteline i rotkve mogu
-            imati bakterije koje uzrokuju bolesti i treba ih temeljno kuvati i
-            nikako ne jesti sirove.
+            Poželjno je ne jesti hranu (riba, morski plodovi)koja ima u sebi
+            puno žive Generalno, što je riba veća i što je starija, verovatno
+            sadrži više žive. Preporučuje se da trudnice izbegavaju da jedu
+            morske pse, sabljarke i skuše. Morski plodovi koji se uopšteno
+            smatraju sigurnim uključuju škampe, losos, inćune, pastrmku, bakalar
+            i tunu iz konzerve. Treba isključiti hranu poput sušija i sirovih
+            školjki poput kamenica.
+            <br />
+            Izbegavajte nedovoljno pečeno meso, živinu i jaja, kao i
+            nepasterizovane proizvode, jer su trudnice u većem riziku od
+            trovanja hranom zbog bakterija u nedovoljno kuvanoj hrani.
+            <br />
+            Trudnice ne bi trebale jesti neoprano voće i povrće, opet zbog
+            mogućnosti konzumiranja štetnih bakterija. Određeni izdanci poput
+            lucerke, deteline i rotkve mogu imati bakterije koje uzrokuju
+            bolesti i treba ih temeljno kuvati i nikako ne jesti sirove.
+            <br />
+            Ono na šta treba da obratimo posebnu pažnju je sprečavanje infekcije
+            listerijom u trudnoći, pošto bakterija može da prođe kroz posteljicu
+            i zarazi bebu.. Listerija dospeva u hranu preko kontaminiranog
+            zemljišta i vode, životinja je prenosilac, bakterija može da preživi
+            i da se razmnožava u frižideru na niskim temperaturama. Može se naći
+            u nepasterizovanom mleku, sirevima, sladoledu, sirovom povrću, mesu
+            i mesnim prerađevinama, sirovoj i dimljenoj ribi. Trudnice treba da
+            izbegavaju konzumiranje nepasterizovanog mleka i mlečnih proizvoda,
+            kao i svih vrsta gotove hrane koja se ne zagreva pre upotrebe. Hranu
+            koja se čuva u frižideru pre ponovne upotrebe treba dobro zagrejati.
+            Sirovo povrće i prizemno voće pred upotrebu dobro oprati pod mlazom
+            vode.
             <br />
             Treba izbegavati i preveliko konzumiranje kofeina, jer može proći
             kroz placentu, a učinci na bebu nisu dovoljno poznati, kao ni efekti
-            koji biljni čajevi mogu imati na bebu. Trudnica ni pod kojim
-            okolnostima ne sme konzumirati alkohol, jer nijedna studija nije
-            utvrdila nivo alkohola koji je dokazano siguran tokom trudnoće.
-            Alkohol povećava rizik od mrtvorođenih beba i pobačaja. Takođe može
-            uzrokovati fetalni alkoholni sindrom što može rezultovati razvojem
-            intelektualnih smetnji, kao i deformacijama na licu.
+            koji biljni čajevi mogu imati na bebu.
+            <br />
+            Trudnica ni pod kojim okolnostima ne sme konzumirati alkohol, jer
+            nijedna studija nije utvrdila nivo alkohola koji je dokazano siguran
+            tokom trudnoće. Alkohol povećava rizik od mrtvorođenih beba i
+            pobačaja. Takođe može uzrokovati fetalni alkoholni sindrom što može
+            rezultovati razvojem intelektualnih smetnji, kao i deformacijama na
+            licu.
             <br />
             Pušenje apsolutno treba izbegavati pre, za vreme i nakon trudnoće,
             jer pušenje u bilo kojem od ovih perioda može izuzetno negativno
